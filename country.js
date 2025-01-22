@@ -47,7 +47,7 @@ fetch(`https://restcountries.com/v3.1/name/${countriesName}?fullText=true`).then
       // console.log(borderCountry);
       const border=document.createElement('a')
       border.innerText=borderCountry.name.common
-      border.href=`http://127.0.0.1:5500/country.html?name=${borderCountry.name.common}`
+      border.href=`http://127.0.0.1:5500/rest-countries-api-with-color-theme-switcher-master/country.html?name=${borderCountry.name.common}`
       borderCountries.append(border)
       
       // console.log(border);
